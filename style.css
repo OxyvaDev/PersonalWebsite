@@ -470,3 +470,118 @@ footer p {
 .icons a:hover::after {
     transform: scaleX(1);
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .nav-container {
+        padding: 0 1rem;
+    }
+
+    .logo {
+        margin-left: 0;
+    }
+
+    .nav-links {
+        margin-right: 0;
+    }
+
+    .nav-links a {
+        margin-left: 15px;
+        font-size: 0.9rem;
+    }
+
+    .profile-container h1 {
+        font-size: 2rem;
+    }
+
+    .profile-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .profile-container p {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+
+    .skills-text h2 {
+        font-size: 2rem;
+    }
+
+    .skills-icons {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .education-grid {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+    }
+
+    .tools-container {
+        padding: 0 1rem;
+    }
+
+    .terminal-window {
+        font-size: 0.9rem;
+    }
+
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .setup-info {
+        grid-template-columns: 1fr;
+    }
+
+    .letstalk {
+        padding: 4rem 1rem;
+    }
+
+    .letstalk h2 {
+        font-size: 2rem;
+    }
+
+    .icons {
+        gap: 1.5rem;
+    }
+
+    .icons a {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .skills-icons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-links a {
+        margin-left: 10px;
+        font-size: 0.8rem;
+    }
+
+    .logo a {
+        font-size: 1.5rem;
+    }
+}
